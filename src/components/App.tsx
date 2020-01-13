@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 let a: number;
 a = 'boo';
-console.log(a);
 
 class App extends Component {
   render() {
