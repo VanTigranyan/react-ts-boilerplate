@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 import { all, fork } from 'redux-saga/effects';
 
-export interface RootState {}
+export interface RootState {
+  someState: string;
+}
 
 export const rootReducer = combineReducers({});
 
