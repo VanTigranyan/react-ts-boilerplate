@@ -1,16 +1,11 @@
-import React, { Component } from "react";
+import React, { FunctionComponent } from 'react';
 
-let a: number;
-a = 'boo';
+const App: FunctionComponent = () => {
+  return (
+    <div className="App">
+      <header className="App-header">WELCOME TO NOTHING 🤗</header>
+    </div>
+  );
+};
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">WELCOME TO NOTHING 🤗</header>
-        <div />
-      </div>
-    );
-  }
-}
 export default App;

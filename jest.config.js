@@ -1,17 +1,8 @@
 module.exports = {
-  roots: [
-    '<rootDir>/src',
-  ],
-  collectCoverageFrom: [
-    'src/**/*.{js,jsx,ts,tsx}',
-    '!src/**/*.d.ts',
-  ],
-  setupFiles: [
-    'react-app-polyfill/jsdom',
-  ],
-  setupFilesAfterEnv: [
-    '<rootDir>/node_modules/@testing-library/jest-dom/extend-expect.js',
-  ],
+  roots: ['<rootDir>/src'],
+  collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!src/**/*.d.ts'],
+  setupFiles: ['react-app-polyfill/jsdom'],
+  setupFilesAfterEnv: ['<rootDir>/node_modules/@testing-library/jest-dom/extend-expect.js'],
   testMatch: [
     '<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}',
     '<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}',
@@ -43,8 +34,5 @@ module.exports = {
     'jsx',
     'node',
   ],
-  watchPlugins: [
-    'jest-watch-typeahead/filename',
-    'jest-watch-typeahead/testname',
-  ],
+  watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
 };

@@ -16,6 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "isolatedModules": true,
+    "experimentalDecorators": true,
     "lib": [
       "es6",
       "dom"
@@ -23,7 +24,8 @@
     "rootDir": "src"
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "./cypress/integration/**/*"
   ],
   "exclude": [
     "node_modules",

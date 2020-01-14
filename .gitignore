@@ -49,3 +49,7 @@ chrome-user-data
 *.swp
 *.swo
 /.history
+
+# cypress test results
+cypress/videos
+cypress/screenshots
